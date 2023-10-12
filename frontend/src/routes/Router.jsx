@@ -7,6 +7,7 @@ import Signup from '../pages/Signup'
 import Doctors from '../pages/Doctors'
 import Contact from '../pages/Contact'
 import DoctorDetail from '../pages/DoctorDetail'
+import Feedback from '../components/doctors/Feedback'
 
 
 const Router = () => {
@@ -23,6 +24,9 @@ const Router = () => {
 
             <Route path='/contact' element={<Contact />} />
 
+            <Route path='/feedback' element={<Feedback />} />
+
+      
             <Route path='/doctordetail/:id' element={<DoctorDetail />} />
 
         </Routes>

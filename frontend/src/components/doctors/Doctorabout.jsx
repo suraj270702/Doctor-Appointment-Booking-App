@@ -44,6 +44,11 @@ const Doctorabout = () => {
                 <p className='text-[16px] leading-6 font-medium text-textColor'>Sr. Surgeon</p>
                 <p className='text-[16px] leading-6 font-medium text-textColor'>New Apollo Hospital</p>
               </li>
+              <li className='p-4 rounded bg-[#fff9ea] '>
+                <span className='text-yellowColor text-[15px] leading-6 font-semibold'>{FormatDate('07-23-2016')} - {FormatDate('10-23-2020')}</span>
+                <p className='text-[16px] leading-6 font-medium text-textColor'>Sr. Surgeon</p>
+                <p className='text-[16px] leading-6 font-medium text-textColor'>New Apollo Hospital</p>
+              </li>
           </ul>
         </div>
     </div>
